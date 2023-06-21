@@ -42,3 +42,11 @@
 5. second is RequestParam annotation, where we can fetch the values in the parameter iself.
 6. third is, ModelAttribute annotation, where we just have to specify have a object of a class, whose data will be mapped directly to the returned data.
 7. To pass common data in every view page, we can create a function with ModelAttribute annotation, which will run everytime berfore any other fucntion runs.
+
+## Spring ORM(object relational model)
+1. Take user data and store it in database.
+2. Make a controller, service and Dao layer to make it work.
+3. add spring-orm, mysql-connector, hibernate dependency in pom.xml
+4. make use of hibernate template and make save user in dao layer.
+5. provide Entity annotation in User Class,so that table can be created with it.
+6. provide beans for hibernate, 
